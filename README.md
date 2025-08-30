@@ -1,6 +1,7 @@
 # Arduino Bare Metal Blink Example
 
-This is a simple arduino program to blink the built-in led
+Very simple program to blink the built-in led of an arduino without using any
+external libraries only one C file `main.c`
 
 ## Dependencies
 
