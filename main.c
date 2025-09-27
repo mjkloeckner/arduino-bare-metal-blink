@@ -1,7 +1,9 @@
 // (see sections 13.2.2 and 13.4 on datasheet)
 #define PINB (*(volatile unsigned char*) 0x23)
+#define DDRB (*(volatile unsigned char*) 0x24)
 
 int main(void) {
+    DDRB |= (1 << 5);
 
     while(1) {
         PINB |= (1 << 5);
